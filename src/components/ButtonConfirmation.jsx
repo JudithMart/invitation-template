@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 function ButtonConfirmation() {
-  const phone = "5214434715503";
+  const phone = "0000000000";
   const message = encodeURIComponent("Hola!! 🤠 confirmo mi asistencia Soy____");
   const whatsappUrl = `https://wa.me/${phone}?text=${message}`;
   return (

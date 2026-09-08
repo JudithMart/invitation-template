@@ -23,7 +23,7 @@ function Location() {
         >
           <span className="font-serif text-[#2E6515] font-semibold">
             {" "}
-            Salón "Arcoiris CRUNVAQ"
+            Salón "Arcoiris"
           </span>
         </motion.p>
         <motion.p
@@ -35,7 +35,7 @@ function Location() {
         >
           <span className="text-lg font-serif text-[#80603A] font-normal">
             {" "}
-            Recepción 7:00 pm
+            Recepción 10:00 pm
           </span>
           <br />
           <a
