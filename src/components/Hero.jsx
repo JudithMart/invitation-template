@@ -47,7 +47,7 @@ export default function Hero() {
               </p>
 
               <p className="mt-3 max-w-md text-xs uppercase tracking-[0.22em] text-[#F5F1EA]/60">
-                Ingeniería en Sistemas Computacionales
+                Ingeniera en Sistemas Computacionales
               </p>
             </motion.div>
           </div>
