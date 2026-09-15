@@ -10,10 +10,6 @@ function Home() {
 
   const codigoInvitado = params.get("i");
 
-  if (!codigoInvitado) {
-    return <div className="text-center text-white">Código de invitado no válido</div>;
-  }
-
   const nombreInvitado = invitadosCeremonia[codigoInvitado];
   return (
     <main
