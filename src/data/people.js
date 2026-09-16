@@ -8,7 +8,6 @@ export const invitadosCeremonia = {
   R6tU40: "Ingeniero Jovis",
   S3vW51: "Ingeniero Yisus",
   T1xY62: "Ingeniero Gask",
-  U4zA73: "Maestra Zulma",
   V7bB84: "Rubén",
   Q4xL82: "Yessenia y Teodoro",
 };

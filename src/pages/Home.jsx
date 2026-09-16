@@ -13,7 +13,7 @@ function Home() {
   const nombreInvitado = invitadosCeremonia[codigoInvitado];
   return (
     <main
-      className="relative min-h-screen bg-cover bg-center bg-fixed 
+      className="relative bg-[radial-gradient(circle_at_70%_45%,#4A1118_0%,#220B0F_30%,#0D0B0C_70%)]
     "
     >
       <Hero />
