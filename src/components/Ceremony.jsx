@@ -5,13 +5,7 @@ export default function Ceremony({ nombre }) {
   const primerNombre = partesNombre.shift();
 
   return (
-    <section className="relative overflow-hidden bg-[#0D0B0C] px-6 py-28 md:py-36">
-
-      {/* Burgundy glow */}
-      <div className="absolute left-1/2 top-1/2 h-[400px] w-[400px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#4A1118]/30 blur-[130px]" />
-
-      {/* Golden glow */}
-      <div className="absolute right-[-100px] top-[-100px] h-[300px] w-[300px] rounded-full bg-[#B28B5C]/10 blur-[120px]" />
+    <section className="relative overflow-hidden bg-[#0D0B0C]  px-6 py-18 md:py-36">
 
       {/* Invitation card */}
       <motion.div
@@ -117,7 +111,7 @@ export default function Ceremony({ nombre }) {
             <motion.div
               initial={{ opacity: 0, y: 15 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.6 }}
+              transition={{ duration: 0.8, delay: 0.20 }}
               viewport={{ once: true }}
               className="mt-10 text-center"
             >
@@ -162,24 +156,9 @@ export default function Ceremony({ nombre }) {
           </div>
         </div>
 
+    
       </motion.div>
-          {/* Bottom scroll indicator */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.5 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 text-center"
-      >
-        <p className="mb-3 text-[9px] uppercase tracking-[0.35em] text-[#F5F1EA]/40">
-          Desliza
-        </p>
-
-        <motion.div
-          animate={{ y: [0, 7, 0] }}
-          transition={{ duration: 1.8, repeat: Infinity }}
-          className="mx-auto h-8 w-px bg-[#B28B5C]/60"
-        />
-      </motion.div>
+     
 
     </section>
   );

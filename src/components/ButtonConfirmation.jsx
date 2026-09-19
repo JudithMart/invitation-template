@@ -2,10 +2,23 @@ import { motion } from "framer-motion";
 
 export default function ButtonConfirmation() {
   return (
-    <section className="relative overflow-hidden bg-[#0D0B0C] px-6 py-28 text-[#F5F1EA] md:py-40">
+    <section className="relative overflow-hidden bg-[#151012] px-6 py-20 text-[#F5F1EA] md:py-40">
+
+   {/* Decorative horizontal line */}
+      <motion.div
+        initial={{ scaleX: 0 }}
+        whileInView={{ scaleX: 1 }}
+        transition={{ duration: 1.2, ease: "easeOut" }}
+        viewport={{ once: true }}
+        className="absolute left-1/2 top-0 h-px w-[80%] origin-center -translate-x-1/2 bg-[#B28B5C]/20"
+      />
+
 
       {/* Burgundy glow */}
       <div className="absolute left-1/2 top-1/2 h-[400px] w-[400px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#4A1118]/40 blur-[130px]" />
+
+
+
 
       {/* Decorative circles */}
       <motion.div
@@ -73,16 +86,15 @@ export default function ButtonConfirmation() {
           viewport={{ once: true }}
           className="mx-auto mt-7 max-w-md text-sm leading-7 text-[#F5F1EA]/55"
         >
-          Será muy especial compartir contigo este momento.
-          <br />
-          Por favor, confirma tu asistencia.
+     
+          Te agradecería confirmar tu asistencia para poder preparar cada detalle y hacer de este momento una celebración para recordar
         </motion.p>
 
 
         {/* Button */}
         <motion.a
           href={`https://wa.me/+524591237833?text=${encodeURIComponent(
-            "Confirmo mi asistencia, soy [tu nombre] y asistiré con [número de personas] personas."
+            "Confirmo mi asistencia, soy [tu nombre] y asistiré con [número de personas] personas. 👩🏻‍🎓✨"
           )}`}
           target="_blank"
           rel="noopener noreferrer"

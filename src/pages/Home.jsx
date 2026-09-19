@@ -12,22 +12,11 @@ function Home() {
 
   const nombreInvitado = invitadosCeremonia[codigoInvitado];
   return (
-    <main
-      className="relative min-h-screen bg-cover bg-center bg-fixed 
-    "
-    >
+    <main className="relative bg-[#151012]">
       <Hero />
       {nombreInvitado && <Ceremony nombre={nombreInvitado} />}
       <Date />
-
       <ButtonConfirmation />
-      {/* <Separator />
-        <Location />
-        <DressCode />
-        
-        <ImagenFondo />
-        <Photos /> */}
-      {/* </motion.div> */}
     </main>
   );
 }
