@@ -5,7 +5,7 @@ export default function Ceremony({ nombre }) {
   const primerNombre = partesNombre.shift();
 
   return (
-    <section className="relative overflow-hidden bg-[#0D0B0C]  px-6 py-20 md:py-36">
+    <section className="relative overflow-hidden bg-[#0D0B0C]  px-6 py-18 md:py-36">
 
       {/* Invitation card */}
       <motion.div
@@ -111,7 +111,7 @@ export default function Ceremony({ nombre }) {
             <motion.div
               initial={{ opacity: 0, y: 15 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.6 }}
+              transition={{ duration: 0.8, delay: 0.20 }}
               viewport={{ once: true }}
               className="mt-10 text-center"
             >

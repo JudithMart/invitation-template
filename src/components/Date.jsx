@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function Date() {
   return (
-    <section className="relative overflow-hidden bg-[#0D0B0C] px-6 py-20 text-[#F5F1EA] md:px-12 md:py-36">
+    <section className="relative overflow-hidden bg-[#0D0B0C] px-6 py-24 text-[#F5F1EA] md:px-12 md:py-36">
 
       {/* Burgundy glow */}
       <div className="absolute left-[-150px] top-1/2 h-[350px] w-[350px] -translate-y-1/2 rounded-full bg-[#4A1118]/40 blur-[120px]" />
@@ -96,7 +96,7 @@ export default function Date() {
             <h2 className="font-serif text-4xl leading-tight text-[#F5F1EA] md:text-5xl">
              SALÓN JARDÍN
               <br />
-              <span className="text-3xl text-[#B28B5C]">
+              <span className="text-3xl text-[#B28B5C]/80">
                  “SAN PASCUAL”
               </span>
             </h2>
@@ -121,8 +121,7 @@ export default function Date() {
         </div>
 
 
-   
-
+    
       </div>
     </section>
   );
