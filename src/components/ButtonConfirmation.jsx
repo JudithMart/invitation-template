@@ -94,7 +94,7 @@ export default function ButtonConfirmation() {
         {/* Button */}
         <motion.a
           href={`https://wa.me/+524591237833?text=${encodeURIComponent(
-            "Confirmo mi asistencia, soy [tu nombre] y asistiré con [número de personas] personas. 👩🏻‍🎓✨"
+            "Confirmo mi asistencia, soy [tu nombre] 👩🏻‍🎓✨"
           )}`}
           target="_blank"
           rel="noopener noreferrer"
